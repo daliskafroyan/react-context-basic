@@ -5,9 +5,9 @@ export const BookContext = createContext();
 const BookContextProvider = (props) => {
   const [books] = useState([
     { title: 'lotrs', id: 1 },
-    { title: 'babi', id: 2 },
-    { title: 'kki 4', id: 3 },
-    { title: 'melata', id: 4 },
+    { title: 'harry puter', id: 2 },
+    { title: 'spring of mine', id: 3 },
+    { title: 'drown deep', id: 4 },
   ]);
   return (
     <div>
